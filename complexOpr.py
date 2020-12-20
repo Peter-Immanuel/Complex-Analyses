@@ -57,31 +57,3 @@ class ComplexAnalyses:
         elif form == 'e':
             return (self.__results['modulus'], self.__results['exponential Argument'])
 
-
-
-if __name__ == "__main__":
-    name = ComplexAnalyses((4+3j))
-    # print(name.add())
-    # print(name.get_form('p'))
-    # print(name.get_form('e'))
-    print('-'*20)
-
-    # print(name.sub())
-    # name.convert()
-    # print(name.get_form('p'))
-    # print(name.get_form('e'))
-    print('-'*20)
-    print(name.mul())
-    print(name.get_form('p'))
-    # name.convert()
-    # print(name.get_form('p'))
-    # print(name.get_form('e'))
-    print('-'*20)
-
-    # print(name.div())
-    # name.convert()
-    # print(name.get_form('p'))
-    # print(name.get_form('e'))
-    print('-'*20)
-
-# name.sub()
